@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(207, 227, 120);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav img{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    gap: 15px;
+}
+.logo-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.logo-text:hover{
+    background-color: black;
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 800;
+}
+nav button{
+    background-color: rgb(18, 155, 155);
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+nav button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+section{
+    display: flex;
+    align-items: center;
+    margin: 10% 10%;
+    gap: 10%;
+}
+section h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+section img{
+    border-radius: 25px;
+    
+}
+section button{
+    background-color: rgb(18, 155, 155);
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+section p{
+    margin: 5% 0;
+    gap: 20px;
+}
+section button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.sec-left{
+    width: 40%;
+}
+.sec-right{
+    width: 60%;
+}

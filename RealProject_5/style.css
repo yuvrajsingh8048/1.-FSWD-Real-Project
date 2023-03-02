@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(Electroinic_view2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    height: fit-content;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+nav img{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+nav .logo{
+    display: flex;
+    gap: 10px;
+}
+nav .logo-text{
+    font-size: 35px;
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 800;
+}
+nav button{
+    width: fit-content;
+    padding: 10px 15px;
+    background-color:rgb(255, 0, 89);
+    color: white;
+    border-radius: 10px;
+    font-size: medium;
+}
+nav button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+section{
+    align-items: center;
+    color: rgb(14, 251, 6);
+    justify-content: space-evenly;
+    margin: 10% 30%;
+}
+section h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+section p{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 10%;
+    align-items: center;
+    font-size: larger;
+}
+section button{
+    width: fit-content;
+    padding: 10px 15px;
+    background-color:rgb(255, 0, 89);
+    color: white;
+    border-radius: 10px;
+    font-size: medium;
+}
+section button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
