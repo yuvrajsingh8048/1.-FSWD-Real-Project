@@ -10,7 +10,7 @@ body{
     width: 100vw;
     align-items: center;
     justify-content: space-around;
-    background-image: url(Electroinic_view2.jpg);
+    background-image: url(Blue.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -23,6 +23,10 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 10px 0;
+}
+nav:hover{
+    background-color: white;
+    color: black;
 }
 nav img{
     height: 40px;
@@ -64,7 +68,7 @@ nav button:hover{
 }
 section{
     align-items: center;
-    color: rgb(14, 251, 6);
+    color: yellow;
     justify-content: space-evenly;
     margin: 10% 30%;
 }
@@ -84,7 +88,7 @@ section button{
     padding: 10px 15px;
     background-color:rgb(255, 0, 89);
     color: white;
-    border-radius: 10px;
+    border-radius: 0px;
     font-size: medium;
 }
 section button:hover{
