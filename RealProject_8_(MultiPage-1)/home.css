@@ -18,6 +18,10 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+nav h1{
+    font-size: 35px;
+    font-weight: 900;
+}
 nav .logo{
     display: flex;
     gap: 10px;
@@ -39,6 +43,9 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
+}
+nav ul li a:hover{
+    text-decoration: underline;
 }
 h1:hover{
     cursor: pointer;
@@ -69,9 +76,11 @@ section button{
     color: white;
     font-size: 18px;
     font-weight: 900;
+    border: transparent;
 }
 section button:hover{
-    background-color: #fff;
-    color: black;
-    cursor:grab;
+    background-color: white;
+    color: #20BC7E;
+    cursor: pointer;
+    border: 1px solid black;
 }

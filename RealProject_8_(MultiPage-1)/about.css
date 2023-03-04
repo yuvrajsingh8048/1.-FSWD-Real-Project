@@ -40,6 +40,13 @@ nav ul li a{
     font-size: 20px;
     font-weight: 600;
 }
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav h1{
+    font-size: 35px;
+    font-weight: 900;
+}
 h1:hover{
     cursor: pointer;
 }
@@ -60,17 +67,17 @@ section span{
     font-weight: 900;
 }
 section button{
-    padding: 15px 50px;
+    padding: 15px 40px;
     background-color: white;
     color: black;
     border-radius: 10px;
     font-weight: 700;
+    margin-right: 10px;
 }
 section button span{
     font-size: 18px;
 }
 section button:hover{
-    color: white;
-    background-color: rgb(111, 111, 111);
+    background-color: palegoldenrod;
 }
 
