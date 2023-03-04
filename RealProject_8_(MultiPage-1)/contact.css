@@ -60,7 +60,7 @@ form{
     width: 350px;
     border-radius: 10px;
     border: transparent;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 15px black;
     display: flex;
     flex-direction: column;
     gap: 20px;
